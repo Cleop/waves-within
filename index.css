@@ -1,0 +1,15 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.b--bw1-hover:hover {
+  border-width: 0.125rem;
+}
+
+.banner-image {
+  background-position: bottom;
+  background-size: contain;
+  height: 40vh;
+  margin: 1% 0;
+  overflow: hidden;
+}
