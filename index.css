@@ -1,5 +1,28 @@
 * {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background-color: #FAFAFA;
+  color: #194B67;
+}
+
+h4 {
+  color: #546F7E;
+}
+
+section h3 {
+  color: #576875;
+}
+
+article {
+  background-color: #FFF;
+  color: #546F7E;
+}
+
+nav.bb,
+footer.bt {
+  color: #D6D3D3;
 }
 
 .b--bw1-hover:hover {
@@ -12,4 +35,8 @@
   height: 40vh;
   margin: 1% 0;
   overflow: hidden;
+}
+
+.quote {
+  color: #546F7E;
 }
