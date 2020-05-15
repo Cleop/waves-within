@@ -1,5 +1,7 @@
 * {
   font-family: 'Quicksand', sans-serif;
+  background-color: #4B6473;
+  color: #FFFFFF;
 }
 
 .b--bw1-hover:hover {
@@ -13,3 +15,7 @@
   margin: 1% 0;
   overflow: hidden;
 }
+
+.light-blue {
+  color: #D7EEFF;
+  }
