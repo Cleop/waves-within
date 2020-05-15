@@ -13,3 +13,24 @@
   margin: 1% 0;
   overflow: hidden;
 }
+
+/*Navbar*/
+
+.menu {
+  min-height: 4rem;
+  max-height: 0;
+  transition: max-height 0.4s, padding-bottom 0.4s;
+}
+
+#burger:checked ~ .menu {
+  max-height: 25rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.25);
+}
+
+li a:hover, li a:target {
+  color: #4BC0A9;
+}
+
+li a:hover span {
+  color: black;
+}
